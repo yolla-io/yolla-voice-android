@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.yolla",
+    "module": "yolla-voice-android",
+    "version": "0.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "yolla-voice-android-0.1.0.aar",
+          "url": "yolla-voice-android-0.1.0.aar",
+          "size": 596101,
+          "sha512": "f4691c7609fcf71c0bf029bee24fa25fccee8a3d300d199b44285a61c6b1c7442f5261bfaa7d68054b1b75701533d9272ac5c4c835e24c7fe3b2e2e98fb54ee9",
+          "sha256": "7848f1988f60c190b319f829b49c02fcf664a021f449688cf2bfb4a3dcfa94be",
+          "sha1": "a257244f544572dde52ec596ae21141bf95cfabf",
+          "md5": "0d6042fe960115e0e7d4586bde24938f"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.12.0"
+          }
+        },
+        {
+          "group": "io.github.webrtc-sdk",
+          "module": "android",
+          "version": {
+            "requires": "150.7871.04"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "yolla-voice-android-0.1.0.aar",
+          "url": "yolla-voice-android-0.1.0.aar",
+          "size": 596101,
+          "sha512": "f4691c7609fcf71c0bf029bee24fa25fccee8a3d300d199b44285a61c6b1c7442f5261bfaa7d68054b1b75701533d9272ac5c4c835e24c7fe3b2e2e98fb54ee9",
+          "sha256": "7848f1988f60c190b319f829b49c02fcf664a021f449688cf2bfb4a3dcfa94be",
+          "sha1": "a257244f544572dde52ec596ae21141bf95cfabf",
+          "md5": "0d6042fe960115e0e7d4586bde24938f"
+        }
+      ]
+    }
+  ]
+}
